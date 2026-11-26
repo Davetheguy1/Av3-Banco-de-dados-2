@@ -1,0 +1,12 @@
+{
+  "name": "bd2-av3-grupo5",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Importa e normaliza registros CSV para PostgreSQL.",
+  "scripts": {
+    "importar": "node importar-csv-postgres.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
